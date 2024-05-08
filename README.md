@@ -52,3 +52,9 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/tallojarshith/Chest-Disease-Class
 export MLFLOW_TRACKING_USERNAME=tallojarshith 
 export MLFLOW_TRACKING_PASSWORD=04a304871261fea53077042e31f26c95473c78c0
 ```bash
+
+```bash
+1. dvc init
+2. dvc repro
+3. dvc dag
+```bash
