@@ -33,13 +33,13 @@ git add .
 git commit -m "Updated"
 
 git push origin main
-
+```bash
 
 ## How to run?
 
 ```bash
 conda create -n chnv python=3.8 -y
-```
+```bash
 
 ```bash
 conda activate chnv
@@ -47,10 +47,10 @@ conda activate chnv
 
 ```bash
 pip install -r requirements.txt
-```
+```bash
 ```bash
 python app.py
-```
+```bash
 
 ## mlflow dagshub connection uri
 ```bash
@@ -58,7 +58,7 @@ MLFLOW_TRACKING_URI=https://dagshub.com/tallojarshith/Chest-Disease-Classificati
 MLFLOW_TRACKING_USERNAME=tallojarshith \
 MLFLOW_TRACKING_PASSWORD=04a304871261fea53077042e31f26c95473c78c0 \
 python script.py
-```
+```bash
 
 ```bash
 export MLFLOW_TRACKING_URI=https://dagshub.com/tallojarshith/Chest-Disease-Classification-from-Chest-CT-Scan-Image.mlflow
